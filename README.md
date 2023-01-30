@@ -2,7 +2,8 @@
 
 [![Stars](https://img.shields.io/github/stars/serengil/tensorflow-101)](https://github.com/serengil/tensorflow-101)
 [![License](http://img.shields.io/:license-MIT-green.svg?style=flat)](https://github.com/serengil/tensorflow-101/blob/master/LICENSE)
-[![Patreon](https://img.shields.io/:support-patreon-orange.svg?style=flat)](https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31)
+[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dserengil%26type%3Dpatrons&style=flat)](https://www.patreon.com/serengil?repo=tensorflow101)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/serengil?logo=GitHub&color=lightgray)](https://github.com/sponsors/serengil)
 
 I have worked all my life in Machine Learning, and **I've never seen one algorithm knock over its benchmarks like Deep Learning** - Andrew Ng
 
@@ -65,9 +66,11 @@ Face recognition requires to apply face verification several times. It has a O(n
 | NMSLIB | a-nn | [`Tutorial`](https://sefiks.com/2020/09/19/large-scale-face-recognition-with-nmslib/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/nmslib-fast-search.ipynb) | - |
 | Elasticsearch | a-nn | [`Tutorial`](https://sefiks.com/2020/11/27/large-scale-face-recognition-with-elasticsearch/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Elastic-Face.ipynb) | [`Video`](https://youtu.be/i4GvuOmzKzo) |
 | mongoDB | k-NN | [`Tutorial`](https://sefiks.com/2021/01/22/deep-face-recognition-with-mongodb/) | [`Code`](https://sefiks.com/2021/01/22/deep-face-recognition-with-mongodb/) | - |
-| Cassandra | k-NN | [`Tutorial`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | [`Code`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | - |
+| Cassandra | k-NN | [`Tutorial`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Cassandra-Face-Recognition.ipynb) | [`Video`](https://youtu.be/VQqHs6-4Ylg) |
+| Redis | k-NN | [`Tutorial`](https://sefiks.com/2021/03/02/deep-face-recognition-with-redis/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Redis-Face-Recognition.ipynb) | [`Video`](https://youtu.be/eo-fTv4eYzo) |
 | Hadoop | k-NN | [`Tutorial`](https://sefiks.com/2021/01/31/deep-face-recognition-with-hadoop-and-spark/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/PySpark-Face-Recognition.ipynb) | - |
 | Relational Database | k-NN | [`Tutorial`](https://sefiks.com/2021/02/06/deep-face-recognition-with-sql/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Face-Recognition-SQL.ipynb) | - |
+| Neo4j Graph| k-NN | [`Tutorial`](https://sefiks.com/2021/04/03/deep-face-recognition-with-neo4j/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Neo4j-Face-Recognition.ipynb) | [`Video`](https://youtu.be/X-hB2kBFBXs) |
 
 **Apparent Age and Gender Prediction** [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/), [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb)
 
@@ -209,23 +212,25 @@ This repo might use some external sources. Notice that related tutorial links an
 
 # Support
 
-There are many ways to support a project - starring⭐️ the GitHub repos is one.
+There are many ways to support a project - starring⭐️ the GitHub repos is one 🙏
 
-You can also support this project on [Patreon](https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31) 🙏
+You can also support this work on [Patreon](https://www.patreon.com/serengil?repo=tensorflow101)
 
-<p align="left"><a href="https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31"><img src="https://github.com/serengil/deepface/blob/master/icon/patreon.png" width="30%"></a></p>
+<a href="https://www.patreon.com/serengil?repo=tensorflow101">
+<img src="https://raw.githubusercontent.com/serengil/tensorflow-101/master/icons/patreon.png" width="30%" height="30%">
+</a>
 
 # Citation
 
 Please cite tensorflow-101 in your publications if it helps your research. Here is an example BibTeX entry:
 
 ```BibTeX
-@misc{serengil2017tensorflow,
-  abstract = {TensorFlow 101: Introduction to Deep Learning for Python Within TensorFlow},
-  author={Serengil, Sefik Ilkin},
-  title={tensorflow-101},
-  url={https://github.com/serengil/tensorflow-101},
-  year={2017}
+@misc{serengil2021tensorflow,
+  abstract     = {TensorFlow 101: Introduction to Deep Learning for Python Within TensorFlow},
+  author       = {Serengil, Sefik Ilkin},
+  title        = {tensorflow-101},
+  howpublished = {https://github.com/serengil/tensorflow-101},
+  year         = {2021}
 }
 ```
 
